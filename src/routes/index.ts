@@ -11,7 +11,7 @@ router.get('/search', (req: Request, res: Response)=>{
     class Search {
         driverName:string
         constructor() {
-            this.driverName = req.url   // 获取浏览器get参数
+            this.driverName = req.url
         }
         getData() {
 
