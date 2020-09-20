@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
 router.get('/search', function (req, res) {
     var Search = /** @class */ (function () {
         function Search() {
-            this.driverName = req.url; // 获取浏览器get参数
+            this.driverName = req.url;
         }
         Search.prototype.getData = function () {
         };
